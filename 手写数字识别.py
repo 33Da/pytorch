@@ -92,6 +92,7 @@ def test(model):
     print("平均准确率，平均损失",np.mean(acc_list),np.mean(loss_list))
 
 
+
 if __name__ == '__main__':
     model = train(3)
     test(model)
