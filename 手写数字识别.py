@@ -91,6 +91,8 @@ def test(model):
 
     print("平均准确率，平均损失",np.mean(acc_list),np.mean(loss_list))
 
+def cc():
+    pass
 
 
 if __name__ == '__main__':
