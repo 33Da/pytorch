@@ -94,6 +94,7 @@ def test(model):
 def aa():
     pass
 
+
 if __name__ == '__main__':
     model = train(3)
     test(model)
